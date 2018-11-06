@@ -15,7 +15,7 @@
   "require": {
     "php": ">=5.6.0",
     "guzzlehttp/guzzle": "^6.0",
-    "contactduty/oauth-contact-duty": "^0.0.1"
+    "contactduty/oauth-contact-duty": "^0.0.2"
   },
   "autoload": {
     "psr-4": {
