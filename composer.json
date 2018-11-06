@@ -1,0 +1,25 @@
+{
+  "name": "contactduty/api-client",
+  "description": "ContactDuty Api Client",
+  "keywords": [
+    "ContactDuty", "api", "client"
+  ],
+  "homepage": "https://contactduty.com/",
+  "authors": [{
+    "name": "Contact Duty",
+    "email": "contact@contactduty.com",
+    "role": "Developer"
+  }],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.6.0",
+    "guzzlehttp/guzzle": "^6.3",
+    "contactduty/oauth-contact-duty": "^0.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ContactDuty\\Api\\": "src"
+    }
+  }
+}
