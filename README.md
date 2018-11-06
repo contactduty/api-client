@@ -14,7 +14,7 @@ https://www.contactduty.com/
 ## Installation ##
 
 ```sh
-composer require contactduty/api-client:"^0.0.1"
+composer require contactduty/api-client
 ```
 
 Finally, be sure to include the autoloader:
